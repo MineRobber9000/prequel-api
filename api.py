@@ -4,7 +4,7 @@ import feedparser,time,re
 #feed = feedparser.parse("https://prequeladventure.com/feed/")
 
 def get_update(date=None,amount=-1):
-	feed = feedparser.parse("http://www.prequeladventure.com/feed/")
+	feed = feedparser.parse("https://www.prequeladventure.com/feed/")
 	entries = feed['entries']
 	if not date:
 		if amount==-1:
